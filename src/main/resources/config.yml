@@ -1,0 +1,47 @@
+# RedstoneDisabler Configuration
+# Set to true to disable the redstone component
+
+disabled-components:
+  REDSTONE_WIRE: true      # Redstone dust
+  REPEATER: false          # Redstone repeater
+  COMPARATOR: false        # Redstone comparator
+  PISTON: false            # Regular piston
+  STICKY_PISTON: false     # Sticky piston
+  REDSTONE_TORCH: false    # Redstone torch
+  REDSTONE_LAMP: false     # Redstone lamp
+  DISPENSER: false         # Dispenser
+  DROPPER: false           # Dropper
+  HOPPER: false            # Hopper
+  OBSERVER: false          # Observer
+  DAYLIGHT_DETECTOR: false # Daylight detector
+  LEVER: false             # Lever
+  STONE_BUTTON: false      # Stone button
+  WOODEN_BUTTON: false     # Wooden button
+  PRESSURE_PLATE: false    # All pressure plates
+  TRIPWIRE: false          # Tripwire
+  TRIPWIRE_HOOK: false     # Tripwire hook
+  TARGET: false            # Target block
+  SCULK_SENSOR: false      # Sculk sensor
+  NOTE_BLOCK: false        # Note block
+  CALIBRATED_SCULK_SENSOR: false # Calibrated sculk sensor
+  SCULK_SHRIEKER: false    # Sculk shrieker
+  TNT: false               # TNT
+  POWERED_RAIL: false      # Powered rail
+  ACTIVATOR_RAIL: false    # Activator rail
+  DETECTOR_RAIL: false     # Detector rail
+  DOOR: false              # All doors
+  TRAPDOOR: false          # All trapdoors
+  FENCE_GATE: false        # All fence gates
+  BELL: false              # Bell
+  CAMPFIRE: false          # Campfire (redstone extinguishing)
+  LECTERN: false           # Lectern
+  JUKEBOX: false           # Jukebox
+  DRAGON_EGG: false        # Dragon egg
+  HOPPER_MINECART: false   # Minecart with hopper
+  TNT_MINECART: false      # Minecart with TNT
+
+# Message shown when a player tries to use a disabled redstone component
+disabled-message: "&cThis redstone component has been disabled by the server administrator."
+
+# Set to true to enable debug messages
+debug: false

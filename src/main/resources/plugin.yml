@@ -1,0 +1,14 @@
+name: RedstoneDisabler
+version: '${project.version}'
+main: me.zivush.redstonedisabler.RedstoneDisabler
+api-version: '1.20'
+commands:
+  redstonedisabler:
+    description: Reload the RedstoneDisabler configuration
+    usage: /redstonedisabler reload
+    permission: redstonedisabler.reload
+    aliases: [rd]
+permissions:
+  redstonedisabler.reload:
+    description: Allows reloading the RedstoneDisabler configuration
+    default: op
